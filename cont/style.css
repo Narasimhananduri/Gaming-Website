@@ -1,0 +1,151 @@
+
+ul {
+
+    list-style-type: none;
+    margin: -15px;
+    padding: 15px;
+    overflow: hidden;
+    background-color:#1E90FF;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    font-family: 'Teko', 'Oswald', sans-serif;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111111;
+    
+  }
+
+  body{
+    margin:0;
+    padding: 0;
+    text-align: center;
+    background:linear-gradient(rgba(0,0,50,0.5),rgba(0,0,50,0.5)),url(ggg.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position:center;
+    font-family:sans-serif;
+}
+
+.contact-title{
+    margin-top: 100px;
+    color:white;
+    text-transform: uppercase;
+    transition: all 3s ease-in-out;
+
+}
+.contact-title h1{
+    font-size: 18px;
+    line-height: 10px;
+}
+.contact-title h2{
+    font-size: 15px;
+    line-height: 10px;
+}  
+form{
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+
+.form-control{
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom:1px solid rgb(202, 53, 53) ;
+    color: black;
+    font-size: 18px;
+    margin-bottom: 16px;
+} 
+
+input{
+    height: 45px;
+}
+
+form .submit{
+
+    background:#ff5722;
+    border-color: transparent;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+
+}
+
+form .submit:hover{
+    background-color:#f44336;
+    cursor: pointer;
+}
+
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
